@@ -35,7 +35,7 @@ PRIMARY KEY(Vin)
 CREATE TABLE Inventory(
 Dealership_id int,
 Vin int,
-PRIMARY KEY(Dealership_id),
+PRIMARY KEY(Dealership_id,VIN),
 FOREIGN KEY(Vin) REFERENCES Vehicles (Vin),
 FOREIGN KEY(Dealership_id) REFERENCES Dealerships (Dealership_id)
 );
