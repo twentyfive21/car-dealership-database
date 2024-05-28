@@ -1,3 +1,6 @@
+
+-- ********************* ALL QUERIES *******************
+
 -- GET ALL DEALERSHIPS
 SELECT * FROM carDealership.Dealerships;
 -- FIND ALL VEHICLES BY SPECIFIC DEALERSHIP
